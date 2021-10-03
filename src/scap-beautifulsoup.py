@@ -4,8 +4,8 @@ def generate_page_urls(base_url, num_pages):
     page_urls = []
 
     for counter in range(1, num_pages + 1):
-    full_url = base_url + "p=" + str(counter) + "&q=open+education&type=Repositories"
-    page_urls.append(full_url)
+        full_url = base_url + "p=" + str(counter) + "&q=open+education&type=Repositories"
+        page_urls.append(full_url)
 
     return page_urls
 
